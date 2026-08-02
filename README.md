@@ -4,24 +4,25 @@
 
 Este repositório foi desenvolvido como parte do desafio de projeto da DIO, utilizando o NotebookLM como ferramenta de aprendizagem ativa.
 
-O objetivo é centralizar materiais das disciplinas da graduação em Ciência da Computação, utilizando Inteligência Artificial para gerar resumos, esclarecer dúvidas, criar simulados, mapas mentais, flashcards e apoiar a preparação para provas presenciais.
+O objetivo deste projeto é utilizar a Inteligência Artificial para organizar materiais de estudo, gerar resumos, mapas mentais, flashcards e simulados, auxiliando na preparação para provas e no aprendizado durante a graduação em Ciência da Computação.
 
 ---
 
 # 🎯 Objetivos
 
-- Organizar os materiais das disciplinas da graduação.
-- Criar resumos inteligentes utilizando IA.
-- Gerar simulados e questões de revisão.
-- Produzir mapas mentais e glossários.
+- Organizar conteúdos de estudo em um único ambiente.
+- Utilizar o NotebookLM para compreender conceitos complexos.
+- Gerar resumos automáticos para revisão.
+- Criar simulados e questões de estudo.
+- Produzir mapas mentais e flashcards.
 - Documentar os prompts utilizados e os resultados obtidos.
-- Construir um material de consulta para futuras revisões.
+- Criar um material reutilizável para futuras revisões.
 
 ---
 
 # 📂 Disciplinas
 
-## 1º Semestre
+Este projeto poderá ser utilizado em diversas disciplinas da graduação, incluindo:
 
 - Programação Web Responsiva
 - Engenharia de Requisitos
@@ -32,39 +33,92 @@ O objetivo é centralizar materiais das disciplinas da graduação em Ciência d
 - Interpretação e Produção de Textos
 - Tópicos de Ambiente Web
 
-> As próximas disciplinas serão adicionadas conforme o avanço da graduação.
+À medida que a graduação avançar, novas disciplinas poderão ser adicionadas ao caderno de estudos.
 
 ---
 
 # 📚 Curadoria de Fontes
 
-Os materiais utilizados no NotebookLM incluem:
+As seguintes fontes abertas foram utilizadas como base para os estudos no NotebookLM:
 
-- PDFs das aulas disponibilizados pela universidade.
-- Apostilas das disciplinas.
-- Slides apresentados pelos professores.
-- Documentações oficiais relacionadas aos conteúdos estudados.
-- Artigos técnicos utilizados como material complementar.
+1. Manual de Avaliação de Aprendizagem – UNIP  
+   https://www.unip.br/servicos/aluno/manual/tradicional/avaliacao-aprendizagem.aspx
+
+2. MDN Web Docs – HTML  
+   https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+3. MDN Web Docs – CSS  
+   https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+4. MDN Web Docs – JavaScript  
+   https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+5. Documentação Oficial do Git  
+   https://git-scm.com/doc
 
 ---
 
 # 🤖 Engenharia de Prompts
 
-Exemplos de prompts utilizados:
+## Prompt 1
 
-- Faça um resumo deste conteúdo.
-- Explique este assunto como se eu fosse iniciante.
-- Crie um mapa mental.
-- Gere um simulado com 20 questões.
-- Crie flashcards para revisão.
-- Quais são os principais conceitos desta aula?
-- Quais assuntos têm maior chance de aparecer na prova?
+**Pergunta:**
 
-### Dificuldades encontradas
+> Faça um resumo dos principais conceitos apresentados nas fontes.
 
-- Algumas respostas ficaram muito genéricas.
-- Foi necessário utilizar prompts mais específicos para obter respostas detalhadas.
-- A divisão do conteúdo por tópicos melhorou significativamente os resultados.
+**Resultado:**
+
+Foi gerado um resumo organizado em tópicos, facilitando a compreensão do conteúdo.
+
+---
+
+## Prompt 2
+
+**Pergunta:**
+
+> Explique este conteúdo como se eu fosse um estudante iniciante.
+
+**Resultado:**
+
+A IA apresentou uma explicação mais simples, com exemplos práticos e linguagem acessível.
+
+---
+
+## Prompt 3
+
+**Pergunta:**
+
+> Crie um simulado com 10 questões de múltipla escolha baseado nas fontes.
+
+**Resultado:**
+
+Foi gerado um conjunto de questões para revisão, auxiliando na preparação para provas.
+
+---
+
+## Prompt 4
+
+**Pergunta:**
+
+> Crie flashcards para revisar os principais conceitos.
+
+**Resultado:**
+
+Foram produzidos cartões de estudo com perguntas e respostas objetivas.
+
+---
+
+# ⚠ Dificuldades Encontradas
+
+Durante a utilização do NotebookLM, algumas respostas ficaram muito genéricas.
+
+Para melhorar os resultados, foi necessário:
+
+- Utilizar prompts mais específicos.
+- Informar o objetivo da resposta.
+- Solicitar exemplos práticos.
+- Pedir resumos em tópicos.
+- Refinar as perguntas até obter respostas mais completas.
 
 ---
 
@@ -72,24 +126,31 @@ Exemplos de prompts utilizados:
 
 O NotebookLM foi utilizado para:
 
-- Criar resumos das disciplinas.
-- Elaborar mapas mentais.
+- Criar resumos dos conteúdos.
+- Explicar conceitos complexos.
+- Produzir mapas mentais.
 - Gerar flashcards.
-- Produzir simulados.
-- Explicar conceitos complexos de forma simples.
+- Elaborar simulados.
 - Organizar o conteúdo para revisão antes das provas.
 
 ---
 
 # 📚 Glossário
 
-**NotebookLM** — Ferramenta de IA do Google voltada para estudos e organização de conhecimento.
+**NotebookLM**  
+Ferramenta de Inteligência Artificial do Google voltada para organização e estudo de documentos.
 
-**Prompt** — Instrução fornecida à IA para gerar uma resposta.
+**Prompt**  
+Instrução fornecida à Inteligência Artificial para orientar a geração de respostas.
 
-**Flashcard** — Cartão de estudo com perguntas e respostas para memorização.
+**Flashcard**  
+Cartão de estudo utilizado para memorização por meio de perguntas e respostas.
 
-**Mapa Mental** — Representação visual dos principais conceitos de um tema.
+**Mapa Mental**  
+Representação visual dos principais conceitos de um determinado assunto.
+
+**Simulado**  
+Conjunto de questões criado para revisar conhecimentos e testar o aprendizado.
 
 ---
 
@@ -104,4 +165,4 @@ O NotebookLM foi utilizado para:
 
 # 👨‍💻 Autor
 
-Projeto desenvolvido como parte dos desafios da DIO, utilizando o NotebookLM para apoiar os estudos durante a graduação em Ciência da Computação.
+Projeto desenvolvido como parte do desafio da DIO, utilizando o NotebookLM para apoiar a organização dos estudos e a preparação para provas durante a graduação em Ciência da Computação.
